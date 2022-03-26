@@ -24,6 +24,10 @@ module.exports = {
   networks: {
     hardhat: {
     },
+    Polygon: {
+      url: "https://polygon-rpc.com",
+      accounts: [PRIVATE_KEY]
+    },
     PolygonMumbai: {
       url: "https://rpc-mumbai.maticvigil.com",
       accounts: [PRIVATE_KEY]
